@@ -1,0 +1,172 @@
+* {
+  font-family: "PT Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  color: #111111;
+  background-color: #ffffff;
+}
+
+button {
+  border: none;
+  background-color: #333333;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#headermain {
+  height: 35px;
+  background-color: #5511ff;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#brand {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.groupit {
+  padding: 5px;
+  margin: 1px;
+}
+
+.groupith {
+  width: 15%;
+  float: left;
+}
+
+.b {
+  margin-right: 2px;
+}
+
+.drop {
+  position: relative;
+  display: inline-block;
+}
+
+.dropContent {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #5511ff;
+  border-radius: 5px;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+}
+
+#messages {
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalContent {
+  background-color: #dddddd;
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.modalContent form button {
+  margin-left: 5px;
+}
+
+.modalClose {
+  float: right;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+}
+
+.suli {
+  margin-bottom: 4px;
+}
+
+#readerHead {
+  height: 35px;
+  background-color: #eeeeee;
+  border-bottom: 2px solid #bbbbbb;
+}
+
+.rh {
+  float: left;
+  width: 10%;
+}
+
+.sfmain {
+  height: 35px;
+}
+
+.sflabel {
+  margin-right: 4px;
+}
+
+.sfsub {
+  width: 15%;
+  float: left;
+}
+
+.sfsub2 {
+  float: left;
+}
+
+.cardSpacer {
+  height: 25px;
+}
+
+.card {
+  width: 20%;
+  float: left;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  margin: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.cardTitle {
+  font-weight: bold;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+}
+
+.show {
+  display: block;
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+
+  .groupith {
+    width: auto;
+  }
+
+  .rh {
+    width: auto;
+  }
+}
